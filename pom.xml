@@ -8,12 +8,12 @@
   <version>3.3.1</version>
 
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>13</maven.compiler.source>
+    <maven.compiler.target>13</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <gatling.version>${project.version}</gatling.version>
-    <gatling-plugin.version>3.0.3</gatling-plugin.version>
-    <scala-maven-plugin.version>4.2.0</scala-maven-plugin.version>
+    <gatling-plugin.version>3.0.5</gatling-plugin.version>
+    <scala-maven-plugin.version>4.3.1</scala-maven-plugin.version>
   </properties>
 
   <dependencies>
@@ -42,7 +42,7 @@
                 <jvmArg>-Xss100M</jvmArg>
               </jvmArgs>
               <args>
-                <arg>-target:jvm-1.8</arg>
+                <arg>-target:jvm-13</arg>
                 <arg>-deprecation</arg>
                 <arg>-feature</arg>
                 <arg>-unchecked</arg>
